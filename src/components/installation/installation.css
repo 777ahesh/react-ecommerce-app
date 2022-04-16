@@ -1,0 +1,7 @@
+.installation{
+    display: flex;
+}
+
+.installRight, .logo{
+    padding-right: 20px;
+}
