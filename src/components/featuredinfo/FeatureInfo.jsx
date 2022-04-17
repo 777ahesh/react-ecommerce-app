@@ -1,6 +1,11 @@
 import "./featureinfo.css";
 import Bar1 from "../images/Type.png";
-import TimelineIcon from "@mui/icons-material/Timeline";
+import Bar2 from "../images/g2.png";
+import Bar3 from "../images/g3.png";
+import Up from "../images/up.png";
+import Down from "../images/dn.png";
+
+
 function FeatureInfo() {
   return (
     <>
@@ -10,7 +15,7 @@ function FeatureInfo() {
             <span className="featuredTitle">Total Active Users</span>
             <div className="featuredMoneyContainer">
               <span className="featuredMoney">
-                <TimelineIcon className="color" /> +2.6%{" "}
+                <img src={Up} alt="up-arrow" />+2.6%{" "}
               </span>
             </div>
             <span className="featuredSub">18,765</span>
@@ -27,14 +32,14 @@ function FeatureInfo() {
             <span className="featuredTitle">Total Installed</span>
             <div className="featuredMoneyContainer">
               <span className="featuredMoney">
-                <TimelineIcon className="color" /> -0.06%{" "}
+              <img src={Down} alt="down-arrow" /> -0.06%{" "}
               </span>
             </div>
             <span className="featuredSub">4,876</span>
           </div>
           <div className="featuredRight">
             <span className="logo">
-              <img src={Bar1} alt="graph" />
+              <img src={Bar2} alt="graph" />
             </span>
           </div>
         </div>
@@ -43,14 +48,14 @@ function FeatureInfo() {
             <span className="featuredTitle">Total Downloads</span>
             <div className="featuredMoneyContainer">
               <span className="featuredMoney">
-                <TimelineIcon className="color" /> +8.6%{" "}
+              <img src={Up} alt="up-arrow" /> +8.6%{" "}
               </span>
             </div>
             <span className="featuredSub">678</span>
           </div>
           <div className="featuredRight">
             <span className="logo">
-              <img src={Bar1} alt="graph" />
+              <img src={Bar3} alt="graph" />
             </span>
           </div>
         </div>
