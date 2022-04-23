@@ -9,6 +9,10 @@
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
+    transition: 0.3s ease-in ;
+}
+.con-main:hover,.con-main1:hover{
+    transform: translateY(-20px);
 }
 .con-main1 {
     width: 344px;
@@ -21,6 +25,7 @@
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
+    transition: 0.3s ease-in ;
 }
 
 .con-right img {

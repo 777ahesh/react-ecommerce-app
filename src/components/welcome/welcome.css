@@ -11,6 +11,15 @@
     width: 60%;
     background-color: #C8FACD;
     border-radius: 10px;
+    transition: 0.3s ease-in ;
+}
+.heroSideContainer{
+    transition: 0.3s ease-in ;
+
+}
+
+.heroWrapper:hover,.heroSideContainer:hover{
+    transform: translateY(-20px);
 }
 
 .btn{

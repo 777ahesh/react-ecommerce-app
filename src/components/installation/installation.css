@@ -12,6 +12,10 @@
     border-radius: 10px;
     -webkit-box-shadow: 9px 10px 19px 1px rgba(0,0,0,0.3); 
     box-shadow: 9px 10px 19px 1px rgba(0,0,0,0.3);
+    transition: 0.3s ease-in ;
+}
+.installLeft:hover,.installRight:hover{
+    transform: translateY(-20px);
 }
 
 .installLeft{
@@ -25,6 +29,7 @@
     box-shadow: 9px 10px 19px 1px rgba(0,0,0,0.3);
     align-items: center;
     justify-content: center;
+    transition: 0.3s ease-in ;
 }
 
 
