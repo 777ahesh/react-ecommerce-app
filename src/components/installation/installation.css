@@ -1,7 +1,32 @@
 .installation{
     display: flex;
+    cursor: pointer;
 }
 
-.installRight, .logo{
-    padding-right: 20px;
+.installRight{
+    width: 712px;
+    height: 480px ;
+    padding: 5px;
+    margin-top: 14px;
+    margin-left: 51px;
+    border-radius: 10px;
+    -webkit-box-shadow: 9px 10px 19px 1px rgba(0,0,0,0.3); 
+    box-shadow: 9px 10px 19px 1px rgba(0,0,0,0.3);
 }
+
+.installLeft{
+    width: 344px;
+    height: 290px ;
+    padding: 5px;
+    margin-top: 14px;
+    margin-left: 23px;
+    border-radius: 10px;
+    -webkit-box-shadow: 9px 10px 19px 1px rgba(0,0,0,0.3); 
+    box-shadow: 9px 10px 19px 1px rgba(0,0,0,0.3);
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+

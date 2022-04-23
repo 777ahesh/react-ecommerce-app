@@ -1,32 +1,26 @@
 import "./final.css";
-import Tic from "../images/tic.png";
-import Ta from "../images/ta.png";
-import W1 from "../images/w1.png";
-import W2 from "../images/w2.png";
+import Tic from "../tic/Tic";
+import Ta from "../TA/Ta";
+// import W1 from "../images/w1.png";
+// import W2 from "../images/w2.png";
+import Conversion1 from "../Conversions/Conversion1";
+import Conversion2 from "../Conversions/Conversion2";
 
 function Final() {
   return (
     <div className="finalDiv">
       <div className="finalLeft">
-        <span className="logo">
-          <img src={Tic} alt="Tic" />
-        </span>
+        <Tic/>
       </div>
       <div className="finalCenter">
-        <span className="logo">
-          <img src={Ta} alt="top-authors" />
-        </span>
+        <Ta/>
       </div>
       <div className="finalRight">
         <div className="right1">
-          <span className="logo">
-            <img src={W1} alt="widget1" />
-          </span>
+          <Conversion1/>
         </div>
         <div className="right2">
-          <span className="logo">
-            <img src={W2} alt="widget2" />
-          </span>
+         <Conversion2/>
         </div>
       </div>
     </div>

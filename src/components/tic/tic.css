@@ -1,0 +1,43 @@
+.img-container
+{
+    margin-top: 3px;
+}
+.img-flag{
+    height:25px;
+    width:25px;
+
+}
+.ul-container{
+    list-style: none;
+}
+
+.li-container{
+    display: flex;
+}
+
+.os{
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+}
+
+.os-country{
+    width: 66.81px;
+    height: 35px;
+}
+.os-android{
+    width: 52px;
+    height: 35px;
+}
+.os-win{
+    width: 52px;
+    height: 35px;
+}
+.os-mac{
+    width: 52px;
+    height: px;
+}
+
+.country{
+    height: 260px!important;
+}
